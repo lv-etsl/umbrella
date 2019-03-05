@@ -16,7 +16,7 @@
   grid-row: header;
 
   @media (min-width: $break-lg) {
-    grid-column: main / right-gutter;
+    grid-column: left-gutter / right-gutter;
   }
 }
 
@@ -79,7 +79,3 @@
 
     }
   }
-
-.widget {
-  padding: 10px;
-}

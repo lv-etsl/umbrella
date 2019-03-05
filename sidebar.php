@@ -1,7 +1,7 @@
-<aside class="aside">
+<div class="aside aside-grid">
 
   <?php if ( is_active_sidebar( 'left-sidebar' ) ) : ?>
     <?php dynamic_sidebar( 'left-sidebar' ); ?>
   <?php endif; ?>
 
-</aside>
+</div>
