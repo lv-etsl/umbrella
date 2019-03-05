@@ -1,0 +1,16 @@
+// ONE FILE TO RULE THEM ALL
+@charset 'utf-8';
+
+/*
+  Theme Name: Umbrella
+  Theme URI:
+  Descritpion : un exercice en theming wordpress
+  Version: 1.0
+  Author: ETSL - laurent Vermeille
+*/
+
+// VARIABLES
+@import 'abstracts/variables';
+
+@import 'base/normalize/import-now';      // reset all
+@import 'base/grids.scss';
